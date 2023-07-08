@@ -1,0 +1,25 @@
+
+
+.main{
+    display: flex;
+    
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+
+
+
+
+
+@media only screen and (max-width:768px){
+    .main{
+        flex-direction: column;
+        
+        min-height: auto;
+    }
+}
+
+
+
+

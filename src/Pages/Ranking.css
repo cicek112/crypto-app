@@ -1,0 +1,19 @@
+
+.topcoins{
+    padding: 1em;
+    width: 85.5%;
+    background-color: #f3f3f3;
+    padding-bottom: 5em;
+}
+
+.topcoins h2{
+    color: #2F70AF;
+    font-size: 1.5em;
+}
+
+@media only screen and (max-width:768px){
+    .topcoins{
+        width: 100%;
+        padding-bottom: 2em;
+    }
+}

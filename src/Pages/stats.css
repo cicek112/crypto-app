@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.stats{
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.stats h2{
+    color: #2F70AF;
+   margin-bottom: 1em;
+}
+
+.list{
+    width: 70%;
+    justify-content: space-between;
+    display: flex;
+}
+
+.desc{
+    font-weight: lighter;
+    color: gray;
+}
+
+.total{
+    margin-bottom: 2em;
+}
+
+.inf{
+    margin-top: 0.25em;
+    font-size: 1.25em;
+    font-weight: 600;
+}
+
+.wrap{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:2em;
+}
+
+.wrap .coin{
+    margin-top: 1em;
+    background-color: white;
+    width: 215px;
+    height: 175px;
+    border-radius: 5px;
+    
+    
+
+}
+
+.wrap .coin .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.wrap .coin .cizgi{
+    width: 100%;
+    height: 1px;
+    background-color: lightgray;
+}
+
+
+.wrap .coin img{
+    width: 30px;
+}
+
+.wrap .coin .sosis{
+    padding: 1em;
+    color: #171D1F;
+}
+
+.wrap .coin .sosis span{
+    font-weight: 600;
+}
+
+
+
+@media only screen and (max-width:768px){
+    .stats{
+        margin-top: 2em;
+        
+    }
+
+    .list{
+        width: 100%;
+        
+    }
+
+    .wrap .coin{
+        width: 350px;
+        height: 175px;
+        
+    }
+}
