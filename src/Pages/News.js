@@ -47,6 +47,7 @@ async function getNews(){
                           <p>{item.name}</p>
                           <li><img src={item.image.thumbnail==="undefined"?"":item.image.thumbnail.contentUrl} alt='img'></img></li>
                         </ul>
+                        
                         <ul className='desc'>
                           <p>{item.datePublished.slice(0,16).replace('T','  ')}</p>
                           <p>{item.description}</p>
